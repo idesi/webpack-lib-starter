@@ -9,10 +9,10 @@ The starter supports the following out of the box:
 * Commitizen
 * Ghooks
 
-Files built by `Webpack` are outputed to the `lib` directory and `libraryName.min.js` will be the entry point.
+Files built by `Webpack` are output to the `lib` directory and `libraryName.min.js` will be the entry point.
 
 To commit, simply add all changes and then run `npm run commit`
 
-Tests are run on every commit and a production, that will minify the code, will start when you publish
+Tests are run on every commit.
 
-When you push your commits to remote, a prodction build is done which minifies the code. `TravisCI` build also kicks in, and `semantic-release` will release a new version based on the commit messages.
+When you push your commits to remote, a production build is done which minifies the code. `TravisCI` build also kicks in, and `semantic-release` will release a new version based on the commit messages.
